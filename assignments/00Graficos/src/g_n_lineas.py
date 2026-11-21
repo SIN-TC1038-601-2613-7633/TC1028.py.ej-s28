@@ -23,9 +23,9 @@ def grafico_tendencias():
     plt.xlabel("model complexity")
     plt.title("The Bias-Variance Tradeoff")
 
-    plt.savefig('grafico_n_lineas.png')
+#   plt.savefig('grafico_n_lineas.png')
 
-#   plt.show()
+    plt.show()
 
 def main():
     grafico_tendencias()
