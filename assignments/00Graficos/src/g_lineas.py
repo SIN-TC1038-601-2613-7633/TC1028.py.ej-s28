@@ -13,8 +13,8 @@ def grafico_lineas():
     plt.title("Nominal GDP")
 
     plt.ylabel("Billions of $")
-    plt.savefig('grafico_lineas.png')
- #  plt.show()
+ #  plt.savefig('grafico_lineas.png')
+    plt.show()
 
 def main():
     grafico_lineas()
