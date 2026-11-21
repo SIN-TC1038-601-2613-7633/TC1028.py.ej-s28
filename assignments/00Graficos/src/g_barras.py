@@ -21,7 +21,7 @@ def grafico_barras():
 # Etiquetando el Eje-X con los nombres de las peliculas al centro de las barras -----
     plt.xticks([i for i,_ in enumerate(movies)], movies)
 
-    plt.savefig('grafico_barras.png')
+#   plt.savefig('grafico_barras.png')
     plt.show()
 
 def main():
